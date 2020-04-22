@@ -1,7 +1,7 @@
 import os
 
 ### Set Environment bucket location for RW acess 
-ENV_BUCKET="s3a://demo-aws-2/datalake/"
+ENV_BUCKET="s3a://takamiya-bucket/datalake/"
 
 try : 
   DL_s3bucket=os.environ["STORAGE"]+"/datalake/"
